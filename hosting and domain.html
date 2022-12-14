@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Css dan JavaScript</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica;
+}
+/* Style the header */
+header {
+  background-color: rgb(226, 226, 7);
+  padding: 26px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+}
+/* Create three columns/boxes that float next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
+/* Style the list */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 65%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the footer */
+footer {
+  background-color: #656;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+<body>
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!';
+</script>
+
+    <div>
+        <h2>Hosting and Domain Free</h2>
+		<header>
+			<h2>Web Progamming</h2>
+		</header>
+		<section>
+		
+        <ul>
+            <li>
+                Fauzan Barokatus Surur (STI202102154)
+            </li>
+            <li>
+                Nofi Amalia (STI202102327)
+            </li>
+        </ul>
+    </div>
+    <article>
+        <h1>Latihan Hosting and Domain</h1>
+         <p> Latihan ini memerlukan waktu yang cukup banyak, karena perlu pemahaman untuk melakukannya.
+		 lalu saya mencoba dan terus mencoba hingga akhirnya saya bisa melakukannya.
+		 Melihat tutorial, google, berlatih kepada teman dan akhirnya membuahkan hasil.</p>
+		 
+      </article>
+	</section>
+	<footer>
+	<p>Terimakasih</p>
+	</footer>
+	
+</body>
+</html>
